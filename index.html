@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio | Emmanuel GI IUT de Douala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MonPortfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="profile-img-container">
+            <img src="me.jpg" alt="Ma Photo de Profil">
+        </div>
+        <h1 id="greeting">Bienvenue sur mon Portfolio</h1>
+        <p>Étudiant en 1ère année de Génie Informatique à l'IUT de Douala. Futur développeur et expert en solutions numériques.</p>
+        <a href="#contact" class="btn">Me contacter</a>
+    </section>
+
+    <main>
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Salut ! Je suis Emmanuel, étudiant en première année à l'<strong>Institut Universitaire de Technologie (IUT) de Douala</strong>, au sein du département de <strong>Génie Informatique (GI)</strong>.</p>
+                    <p>Passionné par les nouvelles technologies depuis toujours, j'ai choisi ce parcours pour acquérir des bases solides en algorithmique, programmation, gestion des systèmes informatiques et plein d'autres offres de la technologie.</p>
+                    <p>Mon objectif est de devenir un ingénieur compétent capable de relever les défis technologiques de demain, tout en contribuant au développement numérique de mon pays.</p>
+                </div>
+                <div class="about-education">
+                    <h3>Ma Formation</h3>
+                     <p><strong>Nom :</strong> TEGUEM KENMEUGNI EMMANUEL JUNIOR</p>
+                    <p><strong>Diplôme :</strong> Diplôme Universitaire de Technologie (DUT)</p>
+                    <p><strong>Spécialité :</strong> Génie Informatique</p>
+                    <p><strong>Établissement :</strong> IUT de Douala</p>
+                    <p><strong>Année :</strong> 2026 - Présent</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programmation</h3>
+                    <p>Bases en C et Python apprises lors du premier semestre.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Web Design</h3>
+                    <p>Maîtrise de HTML et CSS pour la création de sites statiques.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Infographie</h3>
+                    <p>Création et design des logos, flyers, affiches et pancartes.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Bureautique</h3>
+                    <p>Utilisation avancée de Microsoft Office (Word, Excel, PowerPoint).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Me Contacter</h2>
+            <div class="contact-container">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom Complet</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Votre message ici..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Envoyer le message</button>
+                </form>
+                <a href="https://wa.me/237698546200" class="whatsapp-btn" target="_blank">
+                    Contactez-moi sur WhatsApp
+                </a>
+                <p id="formStatus" style="margin-top: 1rem; text-align: center; font-weight: bold;"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Portfolio par Emmanuel GI IUT de Douala. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
